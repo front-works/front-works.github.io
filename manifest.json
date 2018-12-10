@@ -3,7 +3,7 @@
   "short_name": "FRONT WORKS",
   "icons": [
     {
-      "src": "apple-touch-icon.png",
+      "src": "app-icon.png",
       "sizes": "512x512",
       "type": "image/png"
     }
