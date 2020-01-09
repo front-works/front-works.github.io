@@ -435,12 +435,30 @@ button {
   margin-top: 100px;
 }
 
+@media screen and (max-width: 959px) {
+  .section:not(:first-child) {
+    margin-top: 70px;
+  }
+}
+
 .section:not(:last-child) {
   margin-bottom: 100px;
 }
 
+@media screen and (max-width: 959px) {
+  .section:not(:last-child) {
+    margin-bottom: 50px;
+  }
+}
+
 .section:last-child {
   padding-bottom: 100px;
+}
+
+@media screen and (max-width: 959px) {
+  .section:last-child {
+    padding-bottom: 50px;
+  }
 }
 
 .footer {
