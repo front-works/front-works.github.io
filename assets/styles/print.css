@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+JP:300,400,500,700,900&subset=japanese");
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700&subset=japanese");
+@import url("https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700&display=swap");
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+body {
+  width: 1360px;
+  -webkit-transform: scale(0.8);
+  transform: scale(0.8);
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
+}
