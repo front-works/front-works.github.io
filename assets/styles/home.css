@@ -59,7 +59,27 @@
   margin-bottom: 50px;
 }
 
+.home-lead__heading {
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.home-lead__heading::after {
+  content: '';
+  width: 20px;
+  height: 2px;
+  background-color: #1b1d23;
+  position: absolute;
+  left: calc(50% - 10px);
+  bottom: 0;
+}
+
 .home-lead__paragraph {
+  margin-top: 50px;
   font-size: 18px;
   text-align: center;
   line-height: 2em;
@@ -69,6 +89,7 @@
 @media screen and (max-width: 959px) {
   .home-lead__paragraph {
     font-size: 14px;
+    margin-top: 40px;
   }
 }
 
@@ -159,6 +180,7 @@
 @media screen and (max-width: 959px) {
   .home-service__columns {
     display: block;
+    margin-top: 40px;
     margin-left: 0;
     margin-right: 0;
   }
@@ -194,7 +216,7 @@
 
 @media screen and (max-width: 959px) {
   .home-service__columns__column__heading {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 
