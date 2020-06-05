@@ -55,6 +55,10 @@
   }
 }
 
+.home-lead {
+  padding-top: 50px;
+}
+
 .home-lead:not(:last-child) {
   margin-bottom: 50px;
 }
